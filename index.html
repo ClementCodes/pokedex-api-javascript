@@ -7,8 +7,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script defer src="./index.js"></script>
+
+    <script src=""></script>
     <title>Pokedex-api-javascript</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Bienvenue sur le pokedex avec l'Api POKEAPI</h1>
+    <form action="" class="recherche-poke">
+      <label for="recherche">Chercher un pokemon </label>
+      <input type="text" id="recherche" />
+
+      <!-- button type recherche inutile -->
+      <!-- <button type="submit">Rechercher</button> -->
+      <!-- loader -->
+      <div class="loader">
+        <div class="point"></div>
+        <div class="point"></div>
+        <div class="point"></div>
+      </div>
+    </form>
+
+    <div class="container">
+      <ul class="liste-poke"></ul>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
 </html>
